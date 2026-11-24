@@ -1,3 +1,9 @@
+#+begin_quote
+[!IMPORTANT]
+This package is no longer maintained.  As of Emacs 32, most tweaks
+have been upstreamed.  The rest can be replicated as shown below.
+#+end_quote
+
 * More font-lock keywords for Elisp
 
 This package provides ~morlock-mode~, which highlights additional

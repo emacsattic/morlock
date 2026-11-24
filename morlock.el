@@ -3,7 +3,7 @@
 ;; Copyright (C) 2013-2026 Jonas Bernoulli
 
 ;; Author: Jonas Bernoulli <emacs.morlock@jonas.bernoulli.dev>
-;; Homepage: https://github.com/tarsius/morlock
+;; Homepage: https://github.com/emacsattic/morlock
 ;; Keywords: convenience
 
 ;; Package-Version: 2.2.0
@@ -25,6 +25,9 @@
 ;; along with this file.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
+
+;; This package is no longer maintained.  As of Emacs 32, most tweaks
+;; have been upstreamed.  The rest can be replicated as shown below.
 
 ;; This package provides `morlock-mode', which highlights additional
 ;; expressions in Emacs Lisp mode.
