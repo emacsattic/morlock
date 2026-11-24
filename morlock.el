@@ -26,7 +26,7 @@
 
 ;;; Commentary:
 
-;; This package provides `morlock-mode' which highlights additional
+;; This package provides `morlock-mode', which highlights additional
 ;; expressions in Emacs Lisp mode.
 
 ;; Symbols are highlighted if their `font-lock-keyword' symbol
