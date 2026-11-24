@@ -83,12 +83,12 @@
     (morlock-mode
      (dolist (symbol morlock-font-lock-symbols)
        (put symbol 'font-lock-keyword t))
-     (when (>= emacs-major-version 32)
+     (when (< emacs-major-version 32)
        (advice-add 'lisp--el-match-keyword :override
                    #'lisp--el-match-keyword@morlock))
      (add-hook 'emacs-lisp-mode-hook #'morlock--add-font-lock-keywords))
     (t
-     (when (>= emacs-major-version 32)
+     (when (< emacs-major-version 32)
        (advice-remove 'lisp--el-match-keyword
                       #'lisp--el-match-keyword@morlock))
      (remove-hook 'emacs-lisp-mode-hook #'morlock--add-font-lock-keywords)))
